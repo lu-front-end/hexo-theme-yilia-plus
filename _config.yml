@@ -1,8 +1,12 @@
 ﻿# Header-菜单
 menu:
-  主页: /
-  技术笔记: https://zhousiwei.gitee.io/ibooks/
-  随笔: /tags/随笔/
+  首页: /
+  # 技术笔记: https://zhousiwei.gitee.io/ibooks/
+  归档: archives  # 归档
+  # 分类: categories  # 分类，不支持
+  标签: tags  # 标签
+  # 友链: links  # 友链，请参考 smart_menu
+  关于: about  # 关于
 
 # subNav-子导航
 subNav:
@@ -32,7 +36,7 @@ subNav:
 hover_effect:
   ## `global` 0: Set separately, 1: Enable global 2: Close global
   ## `global` 0: 分开设置, 1: 全局启用, 2: 全局关闭
-  global: 2
+  global: 1
   # SubNav-导航
   subNav: true
 
@@ -52,7 +56,7 @@ excerpt_link: more
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
-mathjax: false
+mathjax: true
 
 # Open link in a new tab | 是否在新窗口打开链接
 open_in_new:
@@ -171,7 +175,7 @@ baidu_push: false
 # 版权声明type设定：0-关闭版权声明； 1-文章对应的md文件里有copyright: true属性，才有版权声明； 2-所有文章均有版权声明
 copyright_type: 2
 # 版权声明自定义文本(关闭请设置为false)
-copyright_text: 
+copyright_text:
 
 # 网站成立年份(默认为 2018，若填入年份小于当前年份，则显示为 2018-2019 类似的格式)
 since: 2018
@@ -260,7 +264,7 @@ slider:
 #smart_menu:
 #  friends: false
 smart_menu:
-  innerArchive: '所有文章'
+  innerArchive: '搜索'
   friends: '友链'
   aboutme: '关于我'
 

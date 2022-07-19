@@ -1,0 +1,12 @@
+<!--from pure-->
+<article class="article article-tags post-type-list" itemscope="">
+  <header class="article-header">
+    <h1 itemprop="name" class="hidden-xs"><%= page.title %></h1>
+      <ul>
+        <% site.tags.each(function(item){ %>
+        <li><a href="<%= config.root %><%= item.path %>"><%= item.name %></a></li>
+        <% }) %>
+      </ul>
+    </nav>
+  </header>
+</article>
